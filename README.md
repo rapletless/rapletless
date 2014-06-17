@@ -11,6 +11,9 @@ Super simple CRM's like powers. Then they deprecated it, which sucks.
 This project's aim is to build a chrome plugin, and possibly plugins for other browsers
 that is a generic drop-in replacement for the Raplet side of Rapportive.
 
+In the process, this project will also document the subset of the raplet spec that it
+implements, as the original Raplet docs have been removed very hastily.
+
 * Configure with a list of Raplet url's
 * Auto configure them using the Raplet spec
 
