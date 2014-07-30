@@ -1,0 +1,22 @@
+{
+  "name": "Raplet dropin",
+  "version": "0.1",
+  "description": "Looks up a Raplet",
+  "content_scripts": [
+    {
+      "matches": ["https://*/*"],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    "jquery-1.10.2.min.js",
+    "gmail.js",
+    "raplet.js"
+  ],
+  "permissions": [
+    "https://www.thecrag.com/*"
+  ],
+  "manifest_version": 2
+}
